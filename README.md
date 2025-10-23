@@ -159,12 +159,11 @@ Menghapus data item (misalnya jika terjadi salah input).
 
 Instalasi & Menjalankan Lokal
 
-Untuk menjalankan API ini di komputer lokal Anda:
+Cara menjalankan API ini di komputer lokal:
 
 1.  **Clone Repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[USERNAME_ANDA]/[NAMA_REPO_ANDA].git
-    cd []
+    git clone https://github.com/hppys/api-cuci-sepatu.git
     ```
 
 2.  **Install Dependencies:**
