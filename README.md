@@ -8,10 +8,8 @@ API ini di-deploy di Vercel.
 
 ---
 
-## 🎯 Tujuan & Fitur Utama
-
+Tujuan & Fitur Utama
 Tujuan dari API ini adalah untuk menyediakan backend bagi aplikasi (web atau mobile) layanan cuci sepatu.
-
 Fitur Utama:
 * **CRUD** penuh (Create, Read, Update, Delete) untuk item cucian.
 * **Manajemen Status:** Memantau progres cucian (Diterima, Proses, Selesai, Diambil).
@@ -19,8 +17,7 @@ Fitur Utama:
 
 ---
 
-## 📦 Struktur Data
-
+Struktur Data
 Data disimpan dalam satu tabel di Supabase bernama `items`.
 
 | Kolom | Tipe Data | Deskripsi |
@@ -34,16 +31,14 @@ Data disimpan dalam satu tabel di Supabase bernama `items`.
 
 ---
 
-## ⚙️ API Endpoints
-
-Berikut adalah contoh request dan response untuk setiap endpoint.
+API Endpoints
+Contoh request dan response untuk setiap endpoint.
 
 **Base URL:** `https://api-cuci-sepatu-chi.vercel.app/`
 
 ---
 
-### 1. CREATE: Menambah Item Baru
-
+1. Menambah Item Baru
 Menambahkan data sepatu baru ke dalam antrian. Status otomatis diatur ke "Diterima".
 
 * **Endpoint:** `POST /items`
@@ -69,7 +64,7 @@ Menambahkan data sepatu baru ke dalam antrian. Status otomatis diatur ke "Diteri
 
 ---
 
-### 2. READ: Mendapatkan Semua Item (Filter)
+2. Mendapatkan Semua Item (Filter)
 
 Mengambil semua item. Endpoint ini mendukung filter `?status=`.
 
@@ -100,7 +95,7 @@ Mengambil semua item. Endpoint ini mendukung filter `?status=`.
 
 ---
 
-### 3. READ: Mendapatkan Item Spesifik
+3. Mendapatkan Item Spesifik
 
 Mengambil satu item berdasarkan `id`.
 
@@ -120,7 +115,7 @@ Mengambil satu item berdasarkan `id`.
 
 ---
 
-### 4. UPDATE: Mengubah Data/Status Item
+4. Mengubah Data/Status Item
 
 Mengubah data item, paling sering digunakan untuk update status.
 
@@ -147,7 +142,7 @@ Mengubah data item, paling sering digunakan untuk update status.
 
 ---
 
-### 5. DELETE: Menghapus Item
+5. Menghapus Item
 
 Menghapus data item (misalnya jika terjadi salah input).
 
@@ -162,7 +157,7 @@ Menghapus data item (misalnya jika terjadi salah input).
 
 ---
 
-## 🚀 Instalasi & Menjalankan Lokal
+Instalasi & Menjalankan Lokal
 
 Untuk menjalankan API ini di komputer lokal Anda:
 
