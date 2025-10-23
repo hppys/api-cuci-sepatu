@@ -11,7 +11,7 @@ API ini di-deploy di Vercel.
 Tujuan & Fitur Utama
 Tujuan dari API ini adalah untuk menyediakan backend bagi aplikasi (web atau mobile) layanan cuci sepatu.
 Fitur Utama:
-* **CRUD** penuh (Create, Read, Update, Delete) untuk item cucian.
+* **CRUD:** penuh (Create, Read, Update, Delete) untuk item cucian.
 * **Manajemen Status:** Memantau progres cucian (Diterima, Proses, Selesai, Diambil).
 * **Filtering:** Mendapatkan daftar item berdasarkan status tertentu (cth: `/items?status=Selesai`).
 
