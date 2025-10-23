@@ -164,7 +164,7 @@ Untuk menjalankan API ini di komputer lokal Anda:
 1.  **Clone Repository:**
     ```bash
     git clone [https://github.com/](https://github.com/)[USERNAME_ANDA]/[NAMA_REPO_ANDA].git
-    cd [NAMA_REPO_ANDA]
+    cd []
     ```
 
 2.  **Install Dependencies:**
@@ -185,3 +185,5 @@ Untuk menjalankan API ini di komputer lokal Anda:
     ```
 
 5.  API akan berjalan di `http://localhost:3000`.
+
+**Carlos Abram Sirait - 21120123120030**
